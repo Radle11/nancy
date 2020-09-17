@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="Runner.LoginPageRunner" time="37.273" tests="10" errors="0" skipped="0" failures="9">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Administrator.DESKTOP-DMM2MC9\Downloads\QuartetHealth\target\test-classes;C:\Users\Administrator.DESKTOP-DMM2MC9\Downloads\QuartetHealth\target\classes;C:\Users\Administrator.DESKTOP-DMM2MC9\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Administrator.DESKTOP-DMM2MC9\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Administrator.DESKTOP-DMM2MC9\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Administrator.DESKTOP-DMM2MC9\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Administrator.DESKTOP-DMM2MC9\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Administrator.DESKTOP-DMM2MC9\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Administrator.DESKTOP-DMM2MC9\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Administrator.DESKTOP-DMM2MC9\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Administrator.DESKTOP-DMM2MC9\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Administrator.DESKTOP-DMM2MC9\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Administrator.DESKTOP-DMM2MC9\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Administrator.DESKTOP-DMM2MC9\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Administrator.DESKTOP-DMM2MC9\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Administrator.DESKTOP-DMM2MC9\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Administrator.DESKTOP-DMM2MC9\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Administrator.DESKTOP-DMM2MC9\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Administrator.DESKTOP-DMM2MC9\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Administrator.DESKTOP-DMM2MC9\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Administrator.DESKTOP-DMM2MC9\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Administrator.DESKTOP-DMM2MC9\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Administrator.DESKTOP-DMM2MC9\.m2\repository\io\cucumber\cucumber-java\5.7.0\cucumber-java-5.7.0.jar;C:\Users\Administrator.DESKTOP-DMM2MC9\.m2\repository\io\cucumber\cucumber-core\5.7.0\cucumber-core-5.7.0.jar;C:\Users\Administrator.DESKTOP-DMM2MC9\.m2\repository\io\cucumber\cucumber-gherkin\5.7.0\cucumber-gherkin-5.7.0.jar;C:\Users\Administrator.DESKTOP-DMM2MC9\.m2\repository\io\cucumber\cucumber-gherkin-vintage\5.7.0\cucumber-gherkin-vintage-5.7.0.jar;C:\Users\Administrator.DESKTOP-DMM2MC9\.m2\repository\io\cucumber\tag-expressions\2.0.4\tag-expressions-2.0.4.jar;C:\Users\Administrator.DESKTOP-DMM2MC9\.m2\repository\io\cucumber\cucumber-expressions\8.3.1\cucumber-expressions-8.3.1.jar;C:\Users\Administrator.DESKTOP-DMM2MC9\.m2\repository\io\cucumber\datatable\3.3.1\datatable-3.3.1.jar;C:\Users\Administrator.DESKTOP-DMM2MC9\.m2\repository\io\cucumber\cucumber-plugin\5.7.0\cucumber-plugin-5.7.0.jar;C:\Users\Administrator.DESKTOP-DMM2MC9\.m2\repository\io\cucumber\docstring\5.7.0\docstring-5.7.0.jar;C:\Users\Administrator.DESKTOP-DMM2MC9\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Administrator.DESKTOP-DMM2MC9\.m2\repository\io\cucumber\cucumber-junit\5.7.0\cucumber-junit-5.7.0.jar;C:\Users\Administrator.DESKTOP-DMM2MC9\.m2\repository\junit\junit\4.13\junit-4.13.jar;C:\Users\Administrator.DESKTOP-DMM2MC9\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Administrator.DESKTOP-DMM2MC9\.m2\repository\io\github\bonigarcia\webdrivermanager\4.0.0\webdrivermanager-4.0.0.jar;C:\Users\Administrator.DESKTOP-DMM2MC9\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\Administrator.DESKTOP-DMM2MC9\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\Administrator.DESKTOP-DMM2MC9\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\Administrator.DESKTOP-DMM2MC9\.m2\repository\org\apache\commons\commons-lang3\3.10\commons-lang3-3.10.jar;C:\Users\Administrator.DESKTOP-DMM2MC9\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0\httpclient5-5.0.jar;C:\Users\Administrator.DESKTOP-DMM2MC9\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0\httpcore5-5.0.jar;C:\Users\Administrator.DESKTOP-DMM2MC9\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0\httpcore5-h2-5.0.jar;C:\Users\Administrator.DESKTOP-DMM2MC9\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\Administrator.DESKTOP-DMM2MC9\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\Administrator.DESKTOP-DMM2MC9\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\Administrator.DESKTOP-DMM2MC9\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_251\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\ADMINI~1.DES\AppData\Local\Temp\surefire1635267180519734877\surefirebooter6816809591674989335.jar C:\Users\Administrator.DESKTOP-DMM2MC9\AppData\Local\Temp\surefire1635267180519734877 2020-09-16T10-42-46_332-jvmRun1 surefire3095977059352793520tmp surefire_06712063610487796082tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\Administrator.DESKTOP-DMM2MC9\Downloads\QuartetHealth\target\test-classes;C:\Users\Administrator.DESKTOP-DMM2MC9\Downloads\QuartetHealth\target\classes;C:\Users\Administrator.DESKTOP-DMM2MC9\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Administrator.DESKTOP-DMM2MC9\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Administrator.DESKTOP-DMM2MC9\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Administrator.DESKTOP-DMM2MC9\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Administrator.DESKTOP-DMM2MC9\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Administrator.DESKTOP-DMM2MC9\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Administrator.DESKTOP-DMM2MC9\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Administrator.DESKTOP-DMM2MC9\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Administrator.DESKTOP-DMM2MC9\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Administrator.DESKTOP-DMM2MC9\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Administrator.DESKTOP-DMM2MC9\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Administrator.DESKTOP-DMM2MC9\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Administrator.DESKTOP-DMM2MC9\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Administrator.DESKTOP-DMM2MC9\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Administrator.DESKTOP-DMM2MC9\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Administrator.DESKTOP-DMM2MC9\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Administrator.DESKTOP-DMM2MC9\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Administrator.DESKTOP-DMM2MC9\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Administrator.DESKTOP-DMM2MC9\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Administrator.DESKTOP-DMM2MC9\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Administrator.DESKTOP-DMM2MC9\.m2\repository\io\cucumber\cucumber-java\5.7.0\cucumber-java-5.7.0.jar;C:\Users\Administrator.DESKTOP-DMM2MC9\.m2\repository\io\cucumber\cucumber-core\5.7.0\cucumber-core-5.7.0.jar;C:\Users\Administrator.DESKTOP-DMM2MC9\.m2\repository\io\cucumber\cucumber-gherkin\5.7.0\cucumber-gherkin-5.7.0.jar;C:\Users\Administrator.DESKTOP-DMM2MC9\.m2\repository\io\cucumber\cucumber-gherkin-vintage\5.7.0\cucumber-gherkin-vintage-5.7.0.jar;C:\Users\Administrator.DESKTOP-DMM2MC9\.m2\repository\io\cucumber\tag-expressions\2.0.4\tag-expressions-2.0.4.jar;C:\Users\Administrator.DESKTOP-DMM2MC9\.m2\repository\io\cucumber\cucumber-expressions\8.3.1\cucumber-expressions-8.3.1.jar;C:\Users\Administrator.DESKTOP-DMM2MC9\.m2\repository\io\cucumber\datatable\3.3.1\datatable-3.3.1.jar;C:\Users\Administrator.DESKTOP-DMM2MC9\.m2\repository\io\cucumber\cucumber-plugin\5.7.0\cucumber-plugin-5.7.0.jar;C:\Users\Administrator.DESKTOP-DMM2MC9\.m2\repository\io\cucumber\docstring\5.7.0\docstring-5.7.0.jar;C:\Users\Administrator.DESKTOP-DMM2MC9\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Administrator.DESKTOP-DMM2MC9\.m2\repository\io\cucumber\cucumber-junit\5.7.0\cucumber-junit-5.7.0.jar;C:\Users\Administrator.DESKTOP-DMM2MC9\.m2\repository\junit\junit\4.13\junit-4.13.jar;C:\Users\Administrator.DESKTOP-DMM2MC9\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Administrator.DESKTOP-DMM2MC9\.m2\repository\io\github\bonigarcia\webdrivermanager\4.0.0\webdrivermanager-4.0.0.jar;C:\Users\Administrator.DESKTOP-DMM2MC9\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\Administrator.DESKTOP-DMM2MC9\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\Administrator.DESKTOP-DMM2MC9\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\Administrator.DESKTOP-DMM2MC9\.m2\repository\org\apache\commons\commons-lang3\3.10\commons-lang3-3.10.jar;C:\Users\Administrator.DESKTOP-DMM2MC9\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0\httpclient5-5.0.jar;C:\Users\Administrator.DESKTOP-DMM2MC9\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0\httpcore5-5.0.jar;C:\Users\Administrator.DESKTOP-DMM2MC9\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0\httpcore5-h2-5.0.jar;C:\Users\Administrator.DESKTOP-DMM2MC9\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\Administrator.DESKTOP-DMM2MC9\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\Administrator.DESKTOP-DMM2MC9\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\Administrator.DESKTOP-DMM2MC9\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Administrator.DESKTOP-DMM2MC9"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_251\jre"/>
+    <property name="basedir" value="C:\Users\Administrator.DESKTOP-DMM2MC9\Downloads\QuartetHealth"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\ADMINI~1.DES\AppData\Local\Temp\surefire1635267180519734877\surefirebooter6816809591674989335.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_251\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_251\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_251-b08"/>
+    <property name="user.name" value="Administrator"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_251\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Administrator.DESKTOP-DMM2MC9\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\ADMINI~1.DES\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_251"/>
+    <property name="user.dir" value="C:\Users\Administrator.DESKTOP-DMM2MC9\Downloads\QuartetHealth"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_251\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Administrator.DESKTOP-DMM2MC9\bin;C:\Python38\Scripts;C:\Python38;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\Java\jdk1.8.0_251\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\WiFi\bin;C:\Program Files\Common Files\Intel\WirelessCommon;C:\Program Files\Git\cmd;C:\Program Files\apache-maven-3.6.3\bin;C:\Users\Administrator.DESKTOP-DMM2MC9\Downloads\jq.exe;C:\Program Files\nodejs;C:\ProgramData\chocolatey\bin;C:\Users\Administrator.DESKTOP-DMM2MC9\AppData\Local\Android\Sdk\platforms;C:\Users\Administrator.DESKTOP-DMM2MC9\AppData\Local\Android\Sdk\platform-tools;C:\Users\Administrator.DESKTOP-DMM2MC9\AppData\Local\Android\Sdk\tools;C:\Users\Administrator.DESKTOP-DMM2MC9\AppData\Local\Android\Sdk\tools\bin;C:\Users\Administrator.DESKTOP-DMM2MC9\AppData\Local\Android\Sdk;C:\Users\Administrator.DESKTOP-DMM2MC9\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator.DESKTOP-DMM2MC9\AppData\Local\GitHubDesktop\bin;C:\Users\Administrator.DESKTOP-DMM2MC9\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.251-b08"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_251\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="Login Page Positive Test" classname="Quartet Health Login Page" time="10.687">
+    <failure message="expected:&lt;[Login] - Quartet Health&gt; but was:&lt;[Welcome] - Quartet Health&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<[Login] - Quartet Health> but was:<[Welcome] - Quartet Health>
+]]></failure>
+    <system-out><![CDATA[
+Scenario: Login Page Positive Test                                                          &amp#27;[90m# src/test/resources/LoginPage.feature:8&amp#27;[0m
+Login Page Positive Test
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user goes to Quartet login page&amp#27;[0m                                                 &amp#27;[90m# StepDefinitions.LoginPageSteps.the_user_goes_to_quartet_login_page()&amp#27;[0m
+  &amp#27;[31mWhen &amp#27;[0m&amp#27;[31mthe user validates title &amp#27;[0m&amp#27;[31m&amp#27;[1m"Login - Quartet Health"&amp#27;[0m                                    &amp#27;[90m# StepDefinitions.LoginPageSteps.the_user_validates_title(java.lang.String)&amp#27;[0m
+      &amp#27;[31morg.junit.ComparisonFailure: expected:<[Login] - Quartet Health> but was:<[Welcome] - Quartet Health>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at StepDefinitions.LoginPageSteps.the_user_validates_title(LoginPageSteps.java:25)
+	at ?.the user validates title "Login - Quartet Health"(file:///C:/Users/Administrator.DESKTOP-DMM2MC9/Downloads/QuartetHealth/src/test/resources/LoginPage.feature:10)
+&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mthe user enters valid username &amp#27;[0m&amp#27;[36m&amp#27;[1m"brooklee@gmail.com"&amp#27;[0m&amp#27;[36m and valid password &amp#27;[0m&amp#27;[36m&amp#27;[1m"Hardtoquess"&amp#27;[0m &amp#27;[90m# StepDefinitions.LoginPageSteps.the_user_enters_valid_username_and_valid_password(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mthe user validate home page&amp#27;[0m                                                           &amp#27;[90m# StepDefinitions.LoginPageSteps.the_user_validate_home_page()&amp#27;[0m
+Failed
+]]></system-out>
+    <system-err><![CDATA[Sep 16, 2020 10:42:48 AM io.cucumber.junit.Cucumber <init>
+WARNING: By default Cucumber is running in --non-strict mode.
+This default will change to --strict and --non-strict will be removed.
+You can use --strict or @CucumberOptions(strict = true) to suppress this warning
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 12856
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 16, 2020 10:42:54 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Login Page Negative Test" classname="Quartet Health Login Page" time="3.141"/>
+  <testcase name="EMPTY_NAME" classname="Quartet Health Login Page" time="3.561">
+    <failure message="expected:&lt;[Logged in successfully!]&gt; but was:&lt;[Invalid username and/or password]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<[Logged in successfully!]> but was:<[Invalid username and/or password]>
+]]></failure>
+    <system-out><![CDATA[
+Scenario Outline:                                                                                       &amp#27;[90m# src/test/resources/LoginPage.feature:27&amp#27;[0m
+
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user goes to Quartet login page&amp#27;[0m                                                             &amp#27;[90m# StepDefinitions.LoginPageSteps.the_user_goes_to_quartet_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user validates title &amp#27;[0m&amp#27;[32m&amp#27;[1m"Login - Quartet Health"&amp#27;[0m                                                &amp#27;[90m# StepDefinitions.LoginPageSteps.the_user_validates_title(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe user enters valid &amp#27;[0m&amp#27;[32m&amp#27;[1m"brooklee@gmail.com"&amp#27;[0m&amp#27;[32m and valid &amp#27;[0m&amp#27;[32m&amp#27;[1m"hardtoquess"&amp#27;[0m                               &amp#27;[90m# StepDefinitions.LoginPageSteps.the_user_enters_valid_and_valid(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[31mAnd &amp#27;[0m&amp#27;[31mthe user validate success message &amp#27;[0m&amp#27;[31m&amp#27;[1m"Logged in successfully!"&amp#27;[0m&amp#27;[31m and home page &amp#27;[0m&amp#27;[31m&amp#27;[1m"Home - Quartet Health"&amp#27;[0m &amp#27;[90m# StepDefinitions.LoginPageSteps.the_user_validate_success_message_and_home_page(java.lang.String,java.lang.String)&amp#27;[0m
+      &amp#27;[31morg.junit.ComparisonFailure: expected:<[Logged in successfully!]> but was:<[Invalid username and/or password]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at StepDefinitions.LoginPageSteps.the_user_validate_success_message_and_home_page(LoginPageSteps.java:64)
+	at ?.the user validate success message "Logged in successfully!" and home page "Home - Quartet Health"(file:///C:/Users/Administrator.DESKTOP-DMM2MC9/Downloads/QuartetHealth/src/test/resources/LoginPage.feature:24)
+&amp#27;[0m
+Failed
+]]></system-out>
+  </testcase>
+  <testcase name="EMPTY_NAME" classname="Quartet Health Login Page" time="3.222">
+    <failure message="expected:&lt;[Logged in successfully!]&gt; but was:&lt;[Invalid username and/or password]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<[Logged in successfully!]> but was:<[Invalid username and/or password]>
+]]></failure>
+    <system-out><![CDATA[
+Scenario Outline:                                                                                       &amp#27;[90m# src/test/resources/LoginPage.feature:28&amp#27;[0m
+
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user goes to Quartet login page&amp#27;[0m                                                             &amp#27;[90m# StepDefinitions.LoginPageSteps.the_user_goes_to_quartet_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user validates title &amp#27;[0m&amp#27;[32m&amp#27;[1m"Login - Quartet Health"&amp#27;[0m                                                &amp#27;[90m# StepDefinitions.LoginPageSteps.the_user_validates_title(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe user enters valid &amp#27;[0m&amp#27;[32m&amp#27;[1m"BROOKLEE@gmail.com"&amp#27;[0m&amp#27;[32m and valid &amp#27;[0m&amp#27;[32m&amp#27;[1m"HARDTO-QUESS"&amp#27;[0m                              &amp#27;[90m# StepDefinitions.LoginPageSteps.the_user_enters_valid_and_valid(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[31mAnd &amp#27;[0m&amp#27;[31mthe user validate success message &amp#27;[0m&amp#27;[31m&amp#27;[1m"Logged in successfully!"&amp#27;[0m&amp#27;[31m and home page &amp#27;[0m&amp#27;[31m&amp#27;[1m"Home - Quartet Health"&amp#27;[0m &amp#27;[90m# StepDefinitions.LoginPageSteps.the_user_validate_success_message_and_home_page(java.lang.String,java.lang.String)&amp#27;[0m
+      &amp#27;[31morg.junit.ComparisonFailure: expected:<[Logged in successfully!]> but was:<[Invalid username and/or password]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at StepDefinitions.LoginPageSteps.the_user_validate_success_message_and_home_page(LoginPageSteps.java:64)
+	at ?.the user validate success message "Logged in successfully!" and home page "Home - Quartet Health"(file:///C:/Users/Administrator.DESKTOP-DMM2MC9/Downloads/QuartetHealth/src/test/resources/LoginPage.feature:24)
+&amp#27;[0m
+Failed
+]]></system-out>
+  </testcase>
+  <testcase name="EMPTY_NAME" classname="Quartet Health Login Page" time="3.026">
+    <failure message="expected:&lt;[Logged in successfully!]&gt; but was:&lt;[Invalid username and/or password]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<[Logged in successfully!]> but was:<[Invalid username and/or password]>
+]]></failure>
+    <system-out><![CDATA[
+Scenario Outline:                                                                                       &amp#27;[90m# src/test/resources/LoginPage.feature:29&amp#27;[0m
+
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user goes to Quartet login page&amp#27;[0m                                                             &amp#27;[90m# StepDefinitions.LoginPageSteps.the_user_goes_to_quartet_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user validates title &amp#27;[0m&amp#27;[32m&amp#27;[1m"Login - Quartet Health"&amp#27;[0m                                                &amp#27;[90m# StepDefinitions.LoginPageSteps.the_user_validates_title(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe user enters valid &amp#27;[0m&amp#27;[32m&amp#27;[1m"10101010@yahoo.com"&amp#27;[0m&amp#27;[32m and valid &amp#27;[0m&amp#27;[32m&amp#27;[1m"101010109"&amp#27;[0m                                 &amp#27;[90m# StepDefinitions.LoginPageSteps.the_user_enters_valid_and_valid(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[31mAnd &amp#27;[0m&amp#27;[31mthe user validate success message &amp#27;[0m&amp#27;[31m&amp#27;[1m"Logged in successfully!"&amp#27;[0m&amp#27;[31m and home page &amp#27;[0m&amp#27;[31m&amp#27;[1m"Home - Quartet Health"&amp#27;[0m &amp#27;[90m# StepDefinitions.LoginPageSteps.the_user_validate_success_message_and_home_page(java.lang.String,java.lang.String)&amp#27;[0m
+      &amp#27;[31morg.junit.ComparisonFailure: expected:<[Logged in successfully!]> but was:<[Invalid username and/or password]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at StepDefinitions.LoginPageSteps.the_user_validate_success_message_and_home_page(LoginPageSteps.java:64)
+	at ?.the user validate success message "Logged in successfully!" and home page "Home - Quartet Health"(file:///C:/Users/Administrator.DESKTOP-DMM2MC9/Downloads/QuartetHealth/src/test/resources/LoginPage.feature:24)
+&amp#27;[0m
+Failed
+]]></system-out>
+  </testcase>
+  <testcase name="EMPTY_NAME" classname="Quartet Health Login Page" time="2.965">
+    <failure message="expected:&lt;[Logged in successfully!]&gt; but was:&lt;[Invalid username and/or password]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<[Logged in successfully!]> but was:<[Invalid username and/or password]>
+]]></failure>
+    <system-out><![CDATA[
+Scenario Outline:                                                                                       &amp#27;[90m# src/test/resources/LoginPage.feature:30&amp#27;[0m
+
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user goes to Quartet login page&amp#27;[0m                                                             &amp#27;[90m# StepDefinitions.LoginPageSteps.the_user_goes_to_quartet_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user validates title &amp#27;[0m&amp#27;[32m&amp#27;[1m"Login - Quartet Health"&amp#27;[0m                                                &amp#27;[90m# StepDefinitions.LoginPageSteps.the_user_validates_title(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe user enters valid &amp#27;[0m&amp#27;[32m&amp#27;[1m"#######@gmail.com"&amp#27;[0m&amp#27;[32m and valid &amp#27;[0m&amp#27;[32m&amp#27;[1m"!!@%*&"&amp#27;[0m                                     &amp#27;[90m# StepDefinitions.LoginPageSteps.the_user_enters_valid_and_valid(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[31mAnd &amp#27;[0m&amp#27;[31mthe user validate success message &amp#27;[0m&amp#27;[31m&amp#27;[1m"Logged in successfully!"&amp#27;[0m&amp#27;[31m and home page &amp#27;[0m&amp#27;[31m&amp#27;[1m"Home - Quartet Health"&amp#27;[0m &amp#27;[90m# StepDefinitions.LoginPageSteps.the_user_validate_success_message_and_home_page(java.lang.String,java.lang.String)&amp#27;[0m
+      &amp#27;[31morg.junit.ComparisonFailure: expected:<[Logged in successfully!]> but was:<[Invalid username and/or password]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at StepDefinitions.LoginPageSteps.the_user_validate_success_message_and_home_page(LoginPageSteps.java:64)
+	at ?.the user validate success message "Logged in successfully!" and home page "Home - Quartet Health"(file:///C:/Users/Administrator.DESKTOP-DMM2MC9/Downloads/QuartetHealth/src/test/resources/LoginPage.feature:24)
+&amp#27;[0m
+Failed
+]]></system-out>
+  </testcase>
+  <testcase name="EMPTY_NAME" classname="Quartet Health Login Page" time="2.306">
+    <failure message="expected:&lt;[Logged in successfully!]&gt; but was:&lt;[Enter an email address]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<[Logged in successfully!]> but was:<[Enter an email address]>
+]]></failure>
+    <system-out><![CDATA[
+Scenario Outline:                                                                                       &amp#27;[90m# src/test/resources/LoginPage.feature:31&amp#27;[0m
+
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user goes to Quartet login page&amp#27;[0m                                                             &amp#27;[90m# StepDefinitions.LoginPageSteps.the_user_goes_to_quartet_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user validates title &amp#27;[0m&amp#27;[32m&amp#27;[1m"Login - Quartet Health"&amp#27;[0m                                                &amp#27;[90m# StepDefinitions.LoginPageSteps.the_user_validates_title(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe user enters valid &amp#27;[0m&amp#27;[32m&amp#27;[1m""&amp#27;[0m&amp#27;[32m and valid &amp#27;[0m&amp#27;[32m&amp#27;[1m""&amp#27;[0m                                                            &amp#27;[90m# StepDefinitions.LoginPageSteps.the_user_enters_valid_and_valid(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[31mAnd &amp#27;[0m&amp#27;[31mthe user validate success message &amp#27;[0m&amp#27;[31m&amp#27;[1m"Logged in successfully!"&amp#27;[0m&amp#27;[31m and home page &amp#27;[0m&amp#27;[31m&amp#27;[1m"Home - Quartet Health"&amp#27;[0m &amp#27;[90m# StepDefinitions.LoginPageSteps.the_user_validate_success_message_and_home_page(java.lang.String,java.lang.String)&amp#27;[0m
+      &amp#27;[31morg.junit.ComparisonFailure: expected:<[Logged in successfully!]> but was:<[Enter an email address]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at StepDefinitions.LoginPageSteps.the_user_validate_success_message_and_home_page(LoginPageSteps.java:64)
+	at ?.the user validate success message "Logged in successfully!" and home page "Home - Quartet Health"(file:///C:/Users/Administrator.DESKTOP-DMM2MC9/Downloads/QuartetHealth/src/test/resources/LoginPage.feature:24)
+&amp#27;[0m
+Failed
+]]></system-out>
+  </testcase>
+  <testcase name="EMPTY_NAME" classname="Quartet Health Login Page" time="2.104">
+    <failure message="expected:&lt;[Logged in successfully!]&gt; but was:&lt;[Invalid username and/or password]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<[Logged in successfully!]> but was:<[Invalid username and/or password]>
+]]></failure>
+    <system-out><![CDATA[
+Scenario Outline:                                                                                       &amp#27;[90m# src/test/resources/LoginPage.feature:32&amp#27;[0m
+
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user goes to Quartet login page&amp#27;[0m                                                             &amp#27;[90m# StepDefinitions.LoginPageSteps.the_user_goes_to_quartet_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user validates title &amp#27;[0m&amp#27;[32m&amp#27;[1m"Login - Quartet Health"&amp#27;[0m                                                &amp#27;[90m# StepDefinitions.LoginPageSteps.the_user_validates_title(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe user enters valid &amp#27;[0m&amp#27;[32m&amp#27;[1m"brooklee@gmail.com"&amp#27;[0m&amp#27;[32m and valid &amp#27;[0m&amp#27;[32m&amp#27;[1m""&amp#27;[0m                                          &amp#27;[90m# StepDefinitions.LoginPageSteps.the_user_enters_valid_and_valid(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[31mAnd &amp#27;[0m&amp#27;[31mthe user validate success message &amp#27;[0m&amp#27;[31m&amp#27;[1m"Logged in successfully!"&amp#27;[0m&amp#27;[31m and home page &amp#27;[0m&amp#27;[31m&amp#27;[1m"Home - Quartet Health"&amp#27;[0m &amp#27;[90m# StepDefinitions.LoginPageSteps.the_user_validate_success_message_and_home_page(java.lang.String,java.lang.String)&amp#27;[0m
+      &amp#27;[31morg.junit.ComparisonFailure: expected:<[Logged in successfully!]> but was:<[Invalid username and/or password]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at StepDefinitions.LoginPageSteps.the_user_validate_success_message_and_home_page(LoginPageSteps.java:64)
+	at ?.the user validate success message "Logged in successfully!" and home page "Home - Quartet Health"(file:///C:/Users/Administrator.DESKTOP-DMM2MC9/Downloads/QuartetHealth/src/test/resources/LoginPage.feature:24)
+&amp#27;[0m
+Failed
+]]></system-out>
+  </testcase>
+  <testcase name="EMPTY_NAME" classname="Quartet Health Login Page" time="1.937">
+    <failure message="expected:&lt;[Logged in successfully!]&gt; but was:&lt;[Enter an email address]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<[Logged in successfully!]> but was:<[Enter an email address]>
+]]></failure>
+    <system-out><![CDATA[
+Scenario Outline:                                                                                       &amp#27;[90m# src/test/resources/LoginPage.feature:33&amp#27;[0m
+
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user goes to Quartet login page&amp#27;[0m                                                             &amp#27;[90m# StepDefinitions.LoginPageSteps.the_user_goes_to_quartet_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user validates title &amp#27;[0m&amp#27;[32m&amp#27;[1m"Login - Quartet Health"&amp#27;[0m                                                &amp#27;[90m# StepDefinitions.LoginPageSteps.the_user_validates_title(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe user enters valid &amp#27;[0m&amp#27;[32m&amp#27;[1m""&amp#27;[0m&amp#27;[32m and valid &amp#27;[0m&amp#27;[32m&amp#27;[1m"hardtoquess"&amp#27;[0m                                                 &amp#27;[90m# StepDefinitions.LoginPageSteps.the_user_enters_valid_and_valid(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[31mAnd &amp#27;[0m&amp#27;[31mthe user validate success message &amp#27;[0m&amp#27;[31m&amp#27;[1m"Logged in successfully!"&amp#27;[0m&amp#27;[31m and home page &amp#27;[0m&amp#27;[31m&amp#27;[1m"Home - Quartet Health"&amp#27;[0m &amp#27;[90m# StepDefinitions.LoginPageSteps.the_user_validate_success_message_and_home_page(java.lang.String,java.lang.String)&amp#27;[0m
+      &amp#27;[31morg.junit.ComparisonFailure: expected:<[Logged in successfully!]> but was:<[Enter an email address]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at StepDefinitions.LoginPageSteps.the_user_validate_success_message_and_home_page(LoginPageSteps.java:64)
+	at ?.the user validate success message "Logged in successfully!" and home page "Home - Quartet Health"(file:///C:/Users/Administrator.DESKTOP-DMM2MC9/Downloads/QuartetHealth/src/test/resources/LoginPage.feature:24)
+&amp#27;[0m
+Failed
+]]></system-out>
+  </testcase>
+  <testcase name="EMPTY_NAME" classname="Quartet Health Login Page" time="2.956">
+    <failure message="expected:&lt;[Logged in successfully!]&gt; but was:&lt;[Invalid username and/or password]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<[Logged in successfully!]> but was:<[Invalid username and/or password]>
+]]></failure>
+    <system-out><![CDATA[
+Scenario Outline:                                                                                          &amp#27;[90m# src/test/resources/LoginPage.feature:34&amp#27;[0m
+
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user goes to Quartet login page&amp#27;[0m                                                                &amp#27;[90m# StepDefinitions.LoginPageSteps.the_user_goes_to_quartet_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user validates title &amp#27;[0m&amp#27;[32m&amp#27;[1m"Login - Quartet Health"&amp#27;[0m                                                   &amp#27;[90m# StepDefinitions.LoginPageSteps.the_user_validates_title(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe user enters valid &amp#27;[0m&amp#27;[32m&amp#27;[1m"brookismyfirstnameandleeismylastname"&amp#27;[0m&amp#27;[32m and valid &amp#27;[0m&amp#27;[32m&amp#27;[1m"mypasswordistoohardtoguess"&amp#27;[0m &amp#27;[90m# StepDefinitions.LoginPageSteps.the_user_enters_valid_and_valid(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[31mAnd &amp#27;[0m&amp#27;[31mthe user validate success message &amp#27;[0m&amp#27;[31m&amp#27;[1m"Logged in successfully!"&amp#27;[0m&amp#27;[31m and home page &amp#27;[0m&amp#27;[31m&amp#27;[1m"Home - Quartet Health"&amp#27;[0m    &amp#27;[90m# StepDefinitions.LoginPageSteps.the_user_validate_success_message_and_home_page(java.lang.String,java.lang.String)&amp#27;[0m
+      &amp#27;[31morg.junit.ComparisonFailure: expected:<[Logged in successfully!]> but was:<[Invalid username and/or password]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at StepDefinitions.LoginPageSteps.the_user_validate_success_message_and_home_page(LoginPageSteps.java:64)
+	at ?.the user validate success message "Logged in successfully!" and home page "Home - Quartet Health"(file:///C:/Users/Administrator.DESKTOP-DMM2MC9/Downloads/QuartetHealth/src/test/resources/LoginPage.feature:24)
+&amp#27;[0m
+Failed
+]]></system-out>
+  </testcase>
+</testsuite>

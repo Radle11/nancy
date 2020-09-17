@@ -1,0 +1,31 @@
+-------------------------------------------------------------------------------
+Test set: Runner.LoginPageRunner
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 9, Errors: 0, Skipped: 0, Time elapsed: 37.273 s <<< FAILURE! - in Runner.LoginPageRunner
+Login Page Positive Test(Quartet Health Login Page)  Time elapsed: 10.687 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[Login] - Quartet Health> but was:<[Welcome] - Quartet Health>
+
+EMPTY_NAME(Quartet Health Login Page)  Time elapsed: 3.561 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[Logged in successfully!]> but was:<[Invalid username and/or password]>
+
+EMPTY_NAME(Quartet Health Login Page)  Time elapsed: 3.222 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[Logged in successfully!]> but was:<[Invalid username and/or password]>
+
+EMPTY_NAME(Quartet Health Login Page)  Time elapsed: 3.026 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[Logged in successfully!]> but was:<[Invalid username and/or password]>
+
+EMPTY_NAME(Quartet Health Login Page)  Time elapsed: 2.965 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[Logged in successfully!]> but was:<[Invalid username and/or password]>
+
+EMPTY_NAME(Quartet Health Login Page)  Time elapsed: 2.306 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[Logged in successfully!]> but was:<[Enter an email address]>
+
+EMPTY_NAME(Quartet Health Login Page)  Time elapsed: 2.104 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[Logged in successfully!]> but was:<[Invalid username and/or password]>
+
+EMPTY_NAME(Quartet Health Login Page)  Time elapsed: 1.937 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[Logged in successfully!]> but was:<[Enter an email address]>
+
+EMPTY_NAME(Quartet Health Login Page)  Time elapsed: 2.956 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[Logged in successfully!]> but was:<[Invalid username and/or password]>
+

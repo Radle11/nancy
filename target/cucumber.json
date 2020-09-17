@@ -1,0 +1,1339 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 7,
+        "name": "Navigating to Quartet Login Page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4614000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user goes to Login Page",
+            "match": {
+              "location": "StepDefinitions.LoginPageSteps.user_goes_to_Login_Page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 22000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user validates the title \"Login - Quartet Health\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Login - Quartet Health\"",
+                  "offset": 25
+                }
+              ],
+              "location": "StepDefinitions.LoginPageSteps.user_validates_the_title(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 126000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user validates Covid warning banner",
+            "match": {
+              "location": "StepDefinitions.LoginPageSteps.user_validates_Covid_warning_banner()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-17T13:02:16.106Z",
+        "before": [
+          {
+            "result": {
+              "duration": 15484000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Wrong username and wrong password",
+        "description": "",
+        "id": "quartet-health-login-page;wrong-username-and-wrong-password",
+        "after": [
+          {
+            "result": {
+              "duration": 5000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3452000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the user enters invalid username \"brooklee@gmail.com\" and invalid password \"Hardtoquess\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"brooklee@gmail.com\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"Hardtoquess\"",
+                  "offset": 75
+                }
+              ],
+              "location": "StepDefinitions.LoginPageSteps.the_user_enters_invalid_username_and_invalid_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 50000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the user validates title after submit",
+            "match": {
+              "location": "StepDefinitions.LoginPageSteps.the_user_validates_title_after_submit()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "Navigating to Quartet Login Page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5167000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user goes to Login Page",
+            "match": {
+              "location": "StepDefinitions.LoginPageSteps.user_goes_to_Login_Page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user validates the title \"Login - Quartet Health\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Login - Quartet Health\"",
+                  "offset": 25
+                }
+              ],
+              "location": "StepDefinitions.LoginPageSteps.user_validates_the_title(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 69000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user validates Covid warning banner",
+            "match": {
+              "location": "StepDefinitions.LoginPageSteps.user_validates_Covid_warning_banner()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-17T13:02:40.078Z",
+        "before": [
+          {
+            "result": {
+              "duration": 109000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Empty username and wrong password",
+        "description": "",
+        "id": "quartet-health-login-page;empty-username-and-wrong-password",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1541000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "the user lives blank username and enters invalid password \"Mypassword\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mypassword\"",
+                  "offset": 58
+                }
+              ],
+              "location": "StepDefinitions.LoginPageSteps.the_user_lives_blank_username_and_enters_invalid_password(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 253000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "the user validates error message",
+            "match": {
+              "location": "StepDefinitions.LoginPageSteps.the_user_validates_error_message()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "Navigating to Quartet Login Page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2834000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user goes to Login Page",
+            "match": {
+              "location": "StepDefinitions.LoginPageSteps.user_goes_to_Login_Page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user validates the title \"Login - Quartet Health\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Login - Quartet Health\"",
+                  "offset": 25
+                }
+              ],
+              "location": "StepDefinitions.LoginPageSteps.user_validates_the_title(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 52000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user validates Covid warning banner",
+            "match": {
+              "location": "StepDefinitions.LoginPageSteps.user_validates_Covid_warning_banner()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-17T13:02:47.237Z",
+        "before": [
+          {
+            "result": {
+              "duration": 39000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Empty username and empty password",
+        "description": "",
+        "id": "quartet-health-login-page;empty-username-and-empty-password",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 584000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "the user doesn\u0027t enter any username and any password",
+            "match": {
+              "location": "StepDefinitions.LoginPageSteps.the_user_doesn_t_enter_any_username_and_any_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 73000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "the user validates error message",
+            "match": {
+              "location": "StepDefinitions.LoginPageSteps.the_user_validates_error_message()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "Navigating to Quartet Login Page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2479000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user goes to Login Page",
+            "match": {
+              "location": "StepDefinitions.LoginPageSteps.user_goes_to_Login_Page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 103000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user validates the title \"Login - Quartet Health\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Login - Quartet Health\"",
+                  "offset": 25
+                }
+              ],
+              "location": "StepDefinitions.LoginPageSteps.user_validates_the_title(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 99000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user validates Covid warning banner",
+            "match": {
+              "location": "StepDefinitions.LoginPageSteps.user_validates_Covid_warning_banner()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-17T13:02:50.838Z",
+        "before": [
+          {
+            "result": {
+              "duration": 10000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "Show and hide password",
+        "description": "",
+        "id": "quartet-health-login-page;show-and-hide-password",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1879000000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "the user validates the encryption",
+            "match": {
+              "location": "StepDefinitions.LoginPageSteps.the_user_validates_the_encryption()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "Navigating to Quartet Login Page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2582000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user goes to Login Page",
+            "match": {
+              "location": "StepDefinitions.LoginPageSteps.user_goes_to_Login_Page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 29000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user validates the title \"Login - Quartet Health\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Login - Quartet Health\"",
+                  "offset": 25
+                }
+              ],
+              "location": "StepDefinitions.LoginPageSteps.user_validates_the_title(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 97000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user validates Covid warning banner",
+            "match": {
+              "location": "StepDefinitions.LoginPageSteps.user_validates_Covid_warning_banner()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-17T13:02:55.414Z",
+        "before": [
+          {
+            "result": {
+              "duration": 37000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 31,
+        "name": "Reset Password",
+        "description": "",
+        "id": "quartet-health-login-page;reset-password",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected:\u003cnull\u003e but was:\u003chttps://patient.quartethealth.com/p/password-reset-request\u003e\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:835)\r\n\tat org.junit.Assert.assertEquals(Assert.java:120)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat StepDefinitions.LoginPageSteps.the_user_validates_the_forgot_password_function(LoginPageSteps.java:91)\r\n\tat ✽.the user validates the forgot password function(file:///C:/Users/Administrator.DESKTOP-DMM2MC9/Downloads/QuartetHealth/src/test/resources/LoginPage.feature:32)\r\n",
+              "duration": 766000000,
+              "status": "failed"
+            },
+            "line": 32,
+            "name": "the user validates the forgot password function",
+            "match": {
+              "location": "StepDefinitions.LoginPageSteps.the_user_validates_the_forgot_password_function()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "Navigating to Quartet Login Page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2757000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user goes to Login Page",
+            "match": {
+              "location": "StepDefinitions.LoginPageSteps.user_goes_to_Login_Page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 18000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user validates the title \"Login - Quartet Health\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Login - Quartet Health\"",
+                  "offset": 25
+                }
+              ],
+              "location": "StepDefinitions.LoginPageSteps.user_validates_the_title(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 78000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user validates Covid warning banner",
+            "match": {
+              "location": "StepDefinitions.LoginPageSteps.user_validates_Covid_warning_banner()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-17T13:02:58.950Z",
+        "before": [
+          {
+            "result": {
+              "duration": 158000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 35,
+        "name": "Validate ENTER key to submit",
+        "description": "",
+        "id": "quartet-health-login-page;validate-enter-key-to-submit",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 995000000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "the user enters invalid username, invalid password and clicks ENTER key",
+            "match": {
+              "location": "StepDefinitions.LoginPageSteps.the_user_enters_invalid_username_invalid_password_and_clicks_ENTER_key()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "Navigating to Quartet Login Page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2549000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user goes to Login Page",
+            "match": {
+              "location": "StepDefinitions.LoginPageSteps.user_goes_to_Login_Page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user validates the title \"Login - Quartet Health\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Login - Quartet Health\"",
+                  "offset": 25
+                }
+              ],
+              "location": "StepDefinitions.LoginPageSteps.user_validates_the_title(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 66000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user validates Covid warning banner",
+            "match": {
+              "location": "StepDefinitions.LoginPageSteps.user_validates_Covid_warning_banner()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-17T13:03:02.966Z",
+        "before": [
+          {
+            "result": {
+              "duration": 30000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 44,
+        "name": "User enters wrong username and wrong password",
+        "description": "",
+        "id": "quartet-health-login-page;user-enters-wrong-username-and-wrong-password;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1239000000,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "the user enters invalid \"brooklee@gmail.com\" and invalid \"hardtoquess\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"brooklee@gmail.com\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"hardtoquess\"",
+                  "offset": 57
+                }
+              ],
+              "location": "StepDefinitions.LoginPageSteps.the_user_enters_invalid_and_invalid(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 509000000,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "the user validates message and title",
+            "match": {
+              "location": "StepDefinitions.LoginPageSteps.the_user_validates_message_and_title()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "Navigating to Quartet Login Page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2874000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user goes to Login Page",
+            "match": {
+              "location": "StepDefinitions.LoginPageSteps.user_goes_to_Login_Page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user validates the title \"Login - Quartet Health\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Login - Quartet Health\"",
+                  "offset": 25
+                }
+              ],
+              "location": "StepDefinitions.LoginPageSteps.user_validates_the_title(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 122000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user validates Covid warning banner",
+            "match": {
+              "location": "StepDefinitions.LoginPageSteps.user_validates_Covid_warning_banner()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-17T13:03:07.380Z",
+        "before": [
+          {
+            "result": {
+              "duration": 127000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 45,
+        "name": "User enters wrong username and wrong password",
+        "description": "",
+        "id": "quartet-health-login-page;user-enters-wrong-username-and-wrong-password;;3",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4908000000,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "the user enters invalid \"BROOKLEE@gmail.com\" and invalid \"HARDTO-QUESS\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"BROOKLEE@gmail.com\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"HARDTO-QUESS\"",
+                  "offset": 57
+                }
+              ],
+              "location": "StepDefinitions.LoginPageSteps.the_user_enters_invalid_and_invalid(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 944000000,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "the user validates message and title",
+            "match": {
+              "location": "StepDefinitions.LoginPageSteps.the_user_validates_message_and_title()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "Navigating to Quartet Login Page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7408000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user goes to Login Page",
+            "match": {
+              "location": "StepDefinitions.LoginPageSteps.user_goes_to_Login_Page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 43000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user validates the title \"Login - Quartet Health\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Login - Quartet Health\"",
+                  "offset": 25
+                }
+              ],
+              "location": "StepDefinitions.LoginPageSteps.user_validates_the_title(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 408000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user validates Covid warning banner",
+            "match": {
+              "location": "StepDefinitions.LoginPageSteps.user_validates_Covid_warning_banner()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-17T13:03:16.372Z",
+        "before": [
+          {
+            "result": {
+              "duration": 468000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 46,
+        "name": "User enters wrong username and wrong password",
+        "description": "",
+        "id": "quartet-health-login-page;user-enters-wrong-username-and-wrong-password;;4",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9162000000,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "the user enters invalid \"10101010@yahoo.com\" and invalid \"101010109\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"10101010@yahoo.com\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"101010109\"",
+                  "offset": 57
+                }
+              ],
+              "location": "StepDefinitions.LoginPageSteps.the_user_enters_invalid_and_invalid(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1115000000,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "the user validates message and title",
+            "match": {
+              "location": "StepDefinitions.LoginPageSteps.the_user_validates_message_and_title()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "Navigating to Quartet Login Page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5714000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user goes to Login Page",
+            "match": {
+              "location": "StepDefinitions.LoginPageSteps.user_goes_to_Login_Page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user validates the title \"Login - Quartet Health\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Login - Quartet Health\"",
+                  "offset": 25
+                }
+              ],
+              "location": "StepDefinitions.LoginPageSteps.user_validates_the_title(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 115000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user validates Covid warning banner",
+            "match": {
+              "location": "StepDefinitions.LoginPageSteps.user_validates_Covid_warning_banner()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-17T13:03:34.987Z",
+        "before": [
+          {
+            "result": {
+              "duration": 142000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 47,
+        "name": "User enters wrong username and wrong password",
+        "description": "",
+        "id": "quartet-health-login-page;user-enters-wrong-username-and-wrong-password;;5",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2049000000,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "the user enters invalid \"#######@gmail.com\" and invalid \"!!@%*\u0026\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"#######@gmail.com\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"!!@%*\u0026\"",
+                  "offset": 56
+                }
+              ],
+              "location": "StepDefinitions.LoginPageSteps.the_user_enters_invalid_and_invalid(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 780000000,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "the user validates message and title",
+            "match": {
+              "location": "StepDefinitions.LoginPageSteps.the_user_validates_message_and_title()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "Navigating to Quartet Login Page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3133000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user goes to Login Page",
+            "match": {
+              "location": "StepDefinitions.LoginPageSteps.user_goes_to_Login_Page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 157000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user validates the title \"Login - Quartet Health\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Login - Quartet Health\"",
+                  "offset": 25
+                }
+              ],
+              "location": "StepDefinitions.LoginPageSteps.user_validates_the_title(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 120000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user validates Covid warning banner",
+            "match": {
+              "location": "StepDefinitions.LoginPageSteps.user_validates_Covid_warning_banner()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-17T13:03:43.802Z",
+        "before": [
+          {
+            "result": {
+              "duration": 301000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 48,
+        "name": "User enters wrong username and wrong password",
+        "description": "",
+        "id": "quartet-health-login-page;user-enters-wrong-username-and-wrong-password;;6",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 852000000,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "the user enters invalid \"brooklee@gmail.com\" and invalid \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"brooklee@gmail.com\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 57
+                }
+              ],
+              "location": "StepDefinitions.LoginPageSteps.the_user_enters_invalid_and_invalid(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 57000000,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "the user validates message and title",
+            "match": {
+              "location": "StepDefinitions.LoginPageSteps.the_user_validates_message_and_title()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "Navigating to Quartet Login Page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2576000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user goes to Login Page",
+            "match": {
+              "location": "StepDefinitions.LoginPageSteps.user_goes_to_Login_Page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 30000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user validates the title \"Login - Quartet Health\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Login - Quartet Health\"",
+                  "offset": 25
+                }
+              ],
+              "location": "StepDefinitions.LoginPageSteps.user_validates_the_title(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 33000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user validates Covid warning banner",
+            "match": {
+              "location": "StepDefinitions.LoginPageSteps.user_validates_Covid_warning_banner()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-17T13:03:48.427Z",
+        "before": [
+          {
+            "result": {
+              "duration": 14000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 49,
+        "name": "User enters wrong username and wrong password",
+        "description": "",
+        "id": "quartet-health-login-page;user-enters-wrong-username-and-wrong-password;;7",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1061000000,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "the user enters invalid \"brookismyfirstnameandleeismylastname\" and invalid \"mypasswordistoohardtoguess\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"brookismyfirstnameandleeismylastname\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"mypasswordistoohardtoguess\"",
+                  "offset": 75
+                }
+              ],
+              "location": "StepDefinitions.LoginPageSteps.the_user_enters_invalid_and_invalid(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 433000000,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "the user validates message and title",
+            "match": {
+              "location": "StepDefinitions.LoginPageSteps.the_user_validates_message_and_title()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Quartet Health Login Page",
+    "description": "",
+    "id": "quartet-health-login-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/LoginPage.feature",
+    "tags": []
+  }
+]

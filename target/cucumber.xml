@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="12" time="97.592">
+<testcase classname="Quartet Health Login Page" name="Wrong username and wrong password" time="23.956">
+<system-out><![CDATA[When user goes to Login Page................................................passed
+Then user validates the title "Login - Quartet Health"......................passed
+And user validates Covid warning banner.....................................passed
+When the user enters invalid username "brooklee@gmail.com" and invalid password "Hardtoquess".passed
+Then the user validates title after submit..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Quartet Health Login Page" name="Empty username and wrong password" time="7.154">
+<system-out><![CDATA[When user goes to Login Page................................................passed
+Then user validates the title "Login - Quartet Health"......................passed
+And user validates Covid warning banner.....................................passed
+When the user lives blank username and enters invalid password "Mypassword".passed
+Then the user validates error message.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Quartet Health Login Page" name="Empty username and empty password" time="3.594">
+<system-out><![CDATA[When user goes to Login Page................................................passed
+Then user validates the title "Login - Quartet Health"......................passed
+And user validates Covid warning banner.....................................passed
+Then the user doesn't enter any username and any password...................passed
+And the user validates error message........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Quartet Health Login Page" name="Show and hide password" time="4.573">
+<system-out><![CDATA[When user goes to Login Page................................................passed
+Then user validates the title "Login - Quartet Health"......................passed
+And user validates Covid warning banner.....................................passed
+Given the user validates the encryption.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Quartet Health Login Page" name="Reset Password" time="3.519">
+<failure message="expected:&lt;null&gt; but was:&lt;https://patient.quartethealth.com/p/password-reset-request&gt;" type="java.lang.AssertionError"><![CDATA[When user goes to Login Page................................................passed
+Then user validates the title "Login - Quartet Health"......................passed
+And user validates Covid warning banner.....................................passed
+Given the user validates the forgot password function.......................failed
+
+StackTrace:
+java.lang.AssertionError: expected:<null> but was:<https://patient.quartethealth.com/p/password-reset-request>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at StepDefinitions.LoginPageSteps.the_user_validates_the_forgot_password_function(LoginPageSteps.java:91)
+	at ✽.the user validates the forgot password function(file:///C:/Users/Administrator.DESKTOP-DMM2MC9/Downloads/QuartetHealth/src/test/resources/LoginPage.feature:32)
+]]></failure>
+</testcase>
+<testcase classname="Quartet Health Login Page" name="Validate ENTER key to submit" time="4.013">
+<system-out><![CDATA[When user goes to Login Page................................................passed
+Then user validates the title "Login - Quartet Health"......................passed
+And user validates Covid warning banner.....................................passed
+When the user enters invalid username, invalid password and clicks ENTER key.passed
+]]></system-out>
+</testcase>
+<testcase classname="Quartet Health Login Page" name="User enters wrong username and wrong password" time="4.411">
+<system-out><![CDATA[When user goes to Login Page................................................passed
+Then user validates the title "Login - Quartet Health"......................passed
+And user validates Covid warning banner.....................................passed
+Then the user enters invalid "brooklee@gmail.com" and invalid "hardtoquess".passed
+And the user validates message and title....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Quartet Health Login Page" name="User enters wrong username and wrong password 2" time="8.988">
+<system-out><![CDATA[When user goes to Login Page................................................passed
+Then user validates the title "Login - Quartet Health"......................passed
+And user validates Covid warning banner.....................................passed
+Then the user enters invalid "BROOKLEE@gmail.com" and invalid "HARDTO-QUESS".passed
+And the user validates message and title....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Quartet Health Login Page" name="User enters wrong username and wrong password 3" time="18.613">
+<system-out><![CDATA[When user goes to Login Page................................................passed
+Then user validates the title "Login - Quartet Health"......................passed
+And user validates Covid warning banner.....................................passed
+Then the user enters invalid "10101010@yahoo.com" and invalid "101010109"...passed
+And the user validates message and title....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Quartet Health Login Page" name="User enters wrong username and wrong password 4" time="8.81">
+<system-out><![CDATA[When user goes to Login Page................................................passed
+Then user validates the title "Login - Quartet Health"......................passed
+And user validates Covid warning banner.....................................passed
+Then the user enters invalid "#######@gmail.com" and invalid "!!@%*&".......passed
+And the user validates message and title....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Quartet Health Login Page" name="User enters wrong username and wrong password 5" time="4.622">
+<system-out><![CDATA[When user goes to Login Page................................................passed
+Then user validates the title "Login - Quartet Health"......................passed
+And user validates Covid warning banner.....................................passed
+Then the user enters invalid "brooklee@gmail.com" and invalid ""............passed
+And the user validates message and title....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Quartet Health Login Page" name="User enters wrong username and wrong password 6" time="4.149">
+<system-out><![CDATA[When user goes to Login Page................................................passed
+Then user validates the title "Login - Quartet Health"......................passed
+And user validates Covid warning banner.....................................passed
+Then the user enters invalid "brookismyfirstnameandleeismylastname" and invalid "mypasswordistoohardtoguess".passed
+And the user validates message and title....................................passed
+]]></system-out>
+</testcase>
+</testsuite>
